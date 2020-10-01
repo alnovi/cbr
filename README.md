@@ -3,6 +3,7 @@
 Package for working with the Central Bank of Russia api in PHP.
 
 ![Tests](https://github.com/alnovi/cbr/workflows/Tests/badge.svg)
+![Psalm](https://github.com/alnovi/cbr/workflows/Psalm/badge.svg)
 
 ## Requirements
 
