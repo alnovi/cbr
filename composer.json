@@ -1,0 +1,42 @@
+{
+    "name": "alnovi/cbr",
+    "description": "Package for working with the Central Bank of Russia api in PHP",
+    "keywords": ["php", "cbr"],
+    "homepage": "https://github.com/alnovi/cbr",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Novitckiy",
+            "email": "alexnovitckiy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "ext-simplexml": "*",
+        "guzzlehttp/guzzle": "^7.0",
+        "tightenco/collect": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cbr\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cbr\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
