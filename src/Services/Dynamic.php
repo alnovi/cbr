@@ -19,6 +19,7 @@ use Tightenco\Collect\Support\Collection;
 class Dynamic extends Service implements DynamicInterface
 {
     protected const API_ENDPOINT = 'http://www.cbr.ru/scripts/XML_dynamic.asp';
+
     /**
      * @param DateTimeInterface $from
      * @param DateTimeInterface $to

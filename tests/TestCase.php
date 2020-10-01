@@ -40,7 +40,7 @@ class TestCase extends UnitTestCase
         $mock = new MockHandler([$response]);
 
         return new Client([
-            'handler' => HandlerStack::create($mock)
+            'handler' => HandlerStack::create($mock),
         ]);
     }
 }

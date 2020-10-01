@@ -10,19 +10,19 @@ namespace Cbr\DTO;
  */
 class Valute
 {
-    /** @var string  */
+    /** @var string */
     protected string $id;
 
-    /** @var int  */
+    /** @var int */
     protected int $numCode;
 
-    /** @var string  */
+    /** @var string */
     protected string $charCode;
 
-    /** @var string  */
+    /** @var string */
     protected string $name;
 
-    /** @var float  */
+    /** @var float */
     protected float $value;
 
     /**

@@ -33,6 +33,6 @@ class ValuteTest extends TestCase
         $this->assertEquals($numCode, $valute->getNumCode());
         $this->assertEquals($charCode, $valute->getCharCode());
         $this->assertEquals($name, $valute->getName());
-        $this->assertEquals($value/$nominal, $valute->getValue());
+        $this->assertEquals($value / $nominal, $valute->getValue());
     }
 }

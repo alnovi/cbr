@@ -46,7 +46,7 @@ abstract class Service implements ServiceInterface
                 throw new ServiceSendRequestException($response->getReasonPhrase(), $response->getStatusCode());
             }
         } catch (\Throwable $e) {
-            throw new ServiceSendRequestException($e->getMessage(), $e->getCode(), $e);
+            throw new ServiceSendRequestException($e->getMessage(), (int)$e->getCode(), $e);
         }
 
         return $this->xmlToArray($response->getBody()->getContents());

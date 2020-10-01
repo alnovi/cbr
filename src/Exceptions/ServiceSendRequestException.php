@@ -6,6 +6,10 @@ namespace Cbr\Exceptions;
 
 use Exception;
 
+/**
+ * Class ServiceSendRequestException
+ * @package Cbr\Exceptions
+ */
 class ServiceSendRequestException extends Exception
 {
     //

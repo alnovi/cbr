@@ -6,6 +6,10 @@ namespace Cbr\Exceptions;
 
 use Exception;
 
+/**
+ * Class ParseDataException
+ * @package Cbr\Exceptions
+ */
 class ParseDataException extends Exception
 {
     //
