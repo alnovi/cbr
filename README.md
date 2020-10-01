@@ -2,6 +2,8 @@
 
 Package for working with the Central Bank of Russia api in PHP.
 
+![Tests](https://github.com/alnovi/cbr/workflows/Tests/badge.svg)
+
 ## Requirements
 
 - PHP >= 7.4
